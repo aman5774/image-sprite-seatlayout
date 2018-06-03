@@ -1,0 +1,91 @@
+.main-component{
+	max-width: 500px;
+	margin: auto;
+	border: 2px solid red;
+	height: auto;
+	min-height: 200px;
+}
+
+.main-component h3{
+	margin:0;
+	background-color: #ff0000;
+	color:#ffffff;
+	text-align: center;
+	line-height: 30px;
+}
+
+.main-component .image-display{
+	width: 50px;
+	height: 50px;
+	background:url("images.jpg") -60px -115px;
+	float: left;
+	display: inline;
+}
+
+.main-component #seat-layout{
+	padding: 30px;
+}
+
+#details{
+	display: none;
+}
+
+.main-component #details {
+	width: 90%;
+	height: auto;
+	margin: 20px 10px 10px;
+	padding: 3%;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+.main-component #checkout{
+	display: none;
+	width: 95%;
+	margin: 2% 2%;
+	padding: 5px;
+	outline: none;
+	color: #ffffff;
+	background-color: red;
+	opacity: 0.7;
+	border: none;
+	border-radius: 5px;
+}
+
+.main-component #details #logo{
+	width: 12%;
+	height: 50px;
+	display: inline-block;
+	background:url("images.jpg") 0px -115px;
+	margin-top: 5%;
+	margin-right: 10px;
+}
+
+.main-component #details .container{
+	width: 85%;
+	float: right;
+	clear:right;
+}
+
+
+.main-component #details p{
+	margin:5px;
+	padding: 5px;
+}
+
+.main-component #details #travel-name{
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+.main-component #details #seatnumber, #price{
+	color: #ffffff;
+	background-color: red;
+	line-height: 15px;
+	padding: 2px 5px;
+	border-radius: 2px;
+}
+
+.main-component #details #seatnumber::before, #price::before{
+	margin-left: 5px;
+}
